@@ -28,7 +28,7 @@ class MyForm(QMainWindow):
         self.ui = ui.ui_main.Ui_MainWindow()
         self.ui.setupUi(self)
         self.move(200, 200)
-        self.setWindowTitle("Mose Code v0.2")
+        self.setWindowTitle("Morse Code v0.2")
         self.sBar = self.statusBar()            
 
         self.ui.label_map_1.setPixmap(QtGui.QPixmap(r".\assets\number.jpeg"))
